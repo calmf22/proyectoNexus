@@ -1,0 +1,28 @@
+﻿<Window x:Class="Nexus.PantallasProveedores.NuevoProveedor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nexus.PantallasProveedores"
+        mc:Ignorable="d"
+        Title="Nuevo Proveedor" Height="450" Width="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        <Label x:Name="label" Content="Nombre" HorizontalAlignment="Left" Margin="77,64,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Direccion" HorizontalAlignment="Left" Margin="77,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Número Telefónico" HorizontalAlignment="Left" Margin="77,144,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Ciudad" HorizontalAlignment="Left" Margin="77,185,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Departamento" HorizontalAlignment="Left" Margin="77,221,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="País" HorizontalAlignment="Left" Margin="77,252,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label6" Content="Correo" HorizontalAlignment="Left" Margin="77,284,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="23" Margin="199,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301"/>
+        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Height="23" Margin="199,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301"/>
+        <TextBox x:Name="txtNumTel" HorizontalAlignment="Left" Height="23" Margin="199,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="txtCiudad" HorizontalAlignment="Left" Height="23" Margin="199,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="txtPais" HorizontalAlignment="Left" Height="23" Margin="199,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Height="23" Margin="199,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <Button x:Name="button" Content="Guardar" HorizontalAlignment="Left" Margin="107,350,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="button_Click"/>
+        <Button x:Name="button1" Content="Cancelar" HorizontalAlignment="Left" Margin="318,350,0,0" VerticalAlignment="Top" Width="100" Height="40" Click="button1_Click"/>
+        <ComboBox x:Name="cbDepartamento" HorizontalAlignment="Left" Margin="199,225,0,0" VerticalAlignment="Top" Width="219"/>
+
+    </Grid>
+</Window>
